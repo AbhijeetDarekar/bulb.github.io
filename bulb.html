@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb-Animation</title>
+    <style>
+        body{
+            background-color: black;
+            
+        }
+        #image{
+            
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="bulbOn()">On </button>
+
+    <img id="image" src="Off.jpg" alt="" >
+    
+    <button onclick="bulbOff()">Off </button>
+    
+    <script>
+        function bulbOn(){
+
+            document.getElementById('image').src="./On1.jpg";
+        }
+
+        function bulbOff(){
+            
+            document.getElementById('image').src="./Off1.jpg";
+        }
+
+    </script>
+    
+    
+    
+</body>
+</html>
